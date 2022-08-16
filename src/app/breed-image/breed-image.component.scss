@@ -1,0 +1,23 @@
+.breed-image-content {
+    h3 {
+        text-align: center;
+        background-color: chartreuse;
+        color: #2c45ab;
+        padding: 10px 0;
+        font-size: 24px;
+        margin: 20px 0;
+    }
+    .image-container {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 2fr));
+        grid-gap: 50px;
+        .card {
+            text-align: center;
+            img {
+                width: 200px;
+                height: 200px;
+            }
+        }
+    }
+
+}

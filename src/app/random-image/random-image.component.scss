@@ -1,0 +1,27 @@
+.random--image-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .card {
+        flex: 1;
+        text-align: center;
+        &:hover {
+            img {
+                opacity: 0.5;
+            }
+        }
+        img {
+            width: 100px;
+            height: 100px;
+            cursor: pointer;
+        }
+        .breedName {
+            display: block;
+            text-align: center;
+            cursor: pointer;
+            color: blue;
+            text-decoration: underline;
+        }
+    }
+
+}

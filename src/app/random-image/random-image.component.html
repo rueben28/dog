@@ -1,0 +1,6 @@
+<div class="random--image-content">
+    <div class="card" *ngFor="let src of randomImgSrc">
+        <img src="{{src}}" (click)="passBreedName(src)"/>
+        <a class="breedName" (click)="passBreedName(src)">{{getBreedName(src) | titlecase}}</a>
+    </div>
+</div>

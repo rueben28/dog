@@ -1,0 +1,6 @@
+<div class="container">
+  <app-random-image (breedNameData)="loadBreedImg($event)"></app-random-image>
+  <div class="random-image-breed" *ngIf="breedName">
+    <app-breed-image [breedName]="breedName"></app-breed-image>
+  </div>
+</div>

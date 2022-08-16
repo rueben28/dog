@@ -1,0 +1,8 @@
+<div class="breed-image-content">
+    <h3>{{breedName | titlecase}} Random Image</h3>
+    <div class="image-container">
+        <div class="card" *ngFor="let src of breedImgSrc">
+            <img src="{{src}}" />
+        </div>
+    </div>
+</div>
